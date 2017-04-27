@@ -1,40 +1,61 @@
-body {
+* {
   margin: 0;
+  box-sizing: border-box;
+  font-family: url(https://fonts.google.com/?query=lato);
 }
+/*section navigation*/
+
 
 #wrapper {
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
+  background-size: 100% 620px;
 }
+
 .navigation::after {
   content: "";
   display: table;
   clear: both;
   margin: 50px 0 160px 0;
 }
-.section {
+.conteiner {
   width: 940px;
   margin: auto;
-  /*background-color: grey;*/
+}
+
+.section {
   display: block;
   color: white;
 }
-.nav-left {
-  /*margin-right: 10px;*/
 
+.nav-left {
+  float: left;
+  margin-top: 25px;
 }
+
 .nav-rigth {
   float:right;
 }
+
 .nav-list li {
   display:inline-table;
   list-style: none;
-  /*float: right;*/
-  margin: 10px 10px 0 0;
+  margin: 40px 0px 0 0;
+  /*padding: 0 0 0 0;*/
 }
+
 .content {
   text-align: center;
 }
+
+.button-main {
+  text-align: center;
+}
+
+.info h5 {
+  font-weight: 100;
+}
+
 h2 {
   text-transform: uppercase;
   font-size: 66px;
@@ -43,13 +64,13 @@ h2 {
 }
 h4 {
   font-size: 32px;
-  margin: 0 0 49px 0;
+  margin: 0 0 50px 0;
   font-family: url(https://fonts.google.com/?query=lato);
 }
 button {
   padding: 10px;
   border: 2px solid white;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   background-color: transparent;
   color: white;
   margin: 0 0 128px 0;
@@ -57,13 +78,151 @@ button {
   height: 60px;
   font-size: 16px;
   font-family: url(https://fonts.google.com/?query=lato);
+  text-align: center;
 }
-img {
-  float: left;
-  margin: 10px 0 0 10px;
-  /*width: 28px;*/
-}
+/*img {
+  float: right;
+  margin: 55px 0 0 10px;
+  width: 28px;
+}*/
 a {
   color: white;
   text-decoration: none;
+  padding: 0 18px 0 0;
+}
+
+
+/*section web*/
+
+.section-info {
+    padding: 100px 0 100px 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info {
+    float: left;
+    width: 60%;
+    padding: 0 0 0 65px;
+}
+.dir-foto {
+  float: right;
+  width: 40%;
+}
+#dir-logo {
+  margin: 0 0 40px 100px;
+}
+.info-p {
+  margin: 30px 0 5px 0;
+}
+
+h5 {
+  font-size: 60px;
+  margin: 0 0 15px 0;
+}
+.section-info-second{
+  background-color: #fafafa;
+  padding: 100px 0 100px 0;
+}
+.dir-foto {
+  float: left;
+  width: 40%;
+}
+.info-second {
+  float: right;
+  width: 60%;
+}
+#men-logo {
+  margin: 0 0 0 0;
+}
+.bgc {
+  background-color: #fafafa;
+  /*width: 940px;*/
+}
+
+/*table*/
+
+
+
+
+.section-table::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.section-table {
+  padding: 100px 0 100px 0;
+}
+.table-left {
+  width: 430px;
+  padding: 0 0 50px 0;
+}
+
+}
+.table-line-text {
+  width: 325px;
+}
+.table-line-logo {
+  float: left;
+}
+.iteam-left {
+  float: left;
+}
+.iteam-rigth{
+  float: right;
+}
+.ide {
+  padding: 0 20px 0 0;
+}
+p {
+  line-height: 1.5em;
+}
+
+/*last cont*/
+
+
+.section-data {
+  padding: 100px 0 100px 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center-data {
+  text-align: center;
+  font-size: 26px;
+  margin: 0 0 80px 0;
+}
+.data-foto {
+  width: 30%;
+
+}
+.data-text {
+  background-color: white;
+  width: 70%;
+  display: table-cell;
+  vertical-align: middle;
+  /*height: 175px;*/
+  padding: 55px 55px 0 55px;
+  margin-top: 30px;
+
+
+}
+/*.mask {
+  height: 200px;
+  margin-top: -20px;
+}*/
+#font {
+  font-size: 60px;
+}
+.flo-l{
+  float: left;
+}
+.flo-r {
+  float: right;
 }
